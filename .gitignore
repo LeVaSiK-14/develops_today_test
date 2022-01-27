@@ -1,0 +1,9 @@
+.idea
+env/
+__pycache__
+*py[code]
+.env
+.DS_Store
+db.sqlite3
+celerybeat-schedule
+celerybeat-schedule.db
