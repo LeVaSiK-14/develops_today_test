@@ -3,9 +3,12 @@
 # start project
 
 sudo docker-compose build
+
 sudo docker-compose up
 
+
 or
+
 
 sudo docker-compose up --build
 
