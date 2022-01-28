@@ -27,4 +27,5 @@ urlpatterns = [
     path("api/", include("rest_auth.urls")),
     path("auth/", include('rest_framework.urls')),
     path("api/swagger/", schema_view.with_ui(), name="schema-json"),
+    path("api/api.json/", schema_view.without_ui(), name="schema-json"),
 ]
